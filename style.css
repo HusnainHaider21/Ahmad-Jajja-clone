@@ -1,0 +1,187 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: white;
+}
+
+body{
+    background-color: #0A192f;
+}
+/** navbar **/
+.navbar{
+    height: 50px;
+    width: 100%;
+    
+    
+    
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+.nav{
+    
+    color: #CCd6f6;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+a{
+    color: #CCd6f6;
+    margin-left: 80px;
+    text-decoration: none;
+}
+i{
+    color: #64FFDA;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 200px;
+    
+}
+
+button{
+    border: 2px solid #64FFDA;
+    width: 90px;
+    border-radius: 2px;
+    color: #64FFDA;
+    background-color: #64FFDA1A;
+    margin-bottom: 3px;
+}
+button:hover {
+    background-color: #0A192f;
+}
+
+span{
+    color: #64FFDA;
+}
+span:hover{
+    border-bottom: 1.5px solid #64FFDA;
+}
+
+.border:hover{
+    color: #64FFDA;
+}
+
+/** main **/
+.heading{
+    margin: 50px 0px 0px 150px;
+}
+
+.ahmad-jajja{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 140px;
+}
+
+.first-paragraph{
+    font-size: larger;
+    margin-left: 140px;
+}
+
+.ali{
+    color: #64FFDA;
+}
+/** About-section **/
+.about-section{
+    display: flex;
+}
+
+.about-hr{
+    width: 350px;
+    margin: 20px 0px 0px 300px;
+    border-top: 2px solid #8892b0;
+}
+
+.about-para{
+    width: 1200px;
+    height: 530px;
+    display: flex;
+}
+
+.about-para p{
+   font-weight: 700;
+    
+}
+
+.ahmad-img{
+    width: 400px;
+    height: 450px;
+    background-image: url("/images/Husnainjpg.jpg");
+     background-size: cover;
+    color: #64FFDA;
+    margin-top: 10px;
+     margin-left: 4px;
+    outline: 2px solid #64FFDA;
+    outline-offset: 5px;
+}
+ .about-list{
+    height: 500px;
+ }
+
+
+.about-ul1{
+    margin-left:115px;
+    list-style-type: none;
+    color: #8892b0;
+
+}
+.about-ul{
+    position: relative;
+    left: 370px;
+    bottom: 440px;
+    list-style-type: none;
+}
+.about-list li{
+    color: #8892b0;
+}
+
+.about-list li::before {
+    content: "▹";
+    color: #64FFDA;
+    margin-right: 5px;
+}
+/** work-section **/
+
+.work-section{
+    display: flex;
+    height: 750px;
+}
+
+
+.smit-border{
+border-left: 2px solid #64FFDA;
+margin-left: 150px;
+color: #8892b0;
+height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.mern li::before {
+    content: "▹";
+    color: #64FFDA;
+    margin-right: 5px;
+}
+
+/** Project-section **/
+.Project-section{
+    display: flex;
+}
+
+
+.project-img{
+    height: 220px;
+    width: 435px;
+    margin-right: 300px;
+    background-image: url("/images/AIPodcasteGenerator.cf943fff109f713cc4d2.png");
+    background-size: cover;
+}
+
+
+
+
