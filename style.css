@@ -181,7 +181,16 @@ justify-content: space-between;
     background-image: url("/images/AIPodcasteGenerator.cf943fff109f713cc4d2.png");
     background-size: cover;
 }
+/** DSA-section **/
 
+
+.DSA-img{
+    width: 425;
+    height: 200px;
+    background-image: url("/images/JAVADSA.8c9bdb266568538ad724.png");
+    background-size: cover;
+
+}
 
 
 
