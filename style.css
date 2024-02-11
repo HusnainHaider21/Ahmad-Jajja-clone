@@ -185,10 +185,12 @@ justify-content: space-between;
 
 
 .DSA-img{
-    width: 425;
-    height: 200px;
+    width: 425px;
+    height: 400px;
     background-image: url("/images/JAVADSA.8c9bdb266568538ad724.png");
     background-size: cover;
+    position: relative;
+    left: 100px;
 
 }
 
