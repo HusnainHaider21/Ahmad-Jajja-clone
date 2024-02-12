@@ -220,5 +220,44 @@ justify-content: space-between;
     margin-top: 10px;
 }
 
+/** Bank-section **/
+.Bank-section{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 170px;
+}
+
+.bank-data{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.bank-para{
+    width: 500px;
+    height: 80px;
+    background-color: #172a45;
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+    left: 70px;
+    
+}
+
+.bank-para p{
+    padding-top: 20px;
+}
+
+.bank-img{
+    width: 425px;
+    height: 275px;
+    background-image: url("/images/BankApp.0bcd60851e9dccf3ad99.png");
+    background-size: cover;
+    margin-right: 150px;
+    
+    
+}
+
 
 
