@@ -171,27 +171,53 @@ justify-content: space-between;
 /** Project-section **/
 .Project-section{
     display: flex;
+    height: 350px;
+    margin-left: 50px;
 }
 
 
 .project-img{
-    height: 220px;
-    width: 435px;
+    height: 250px;
+    width: 450px;
     margin-right: 300px;
     background-image: url("/images/AIPodcasteGenerator.cf943fff109f713cc4d2.png");
     background-size: cover;
+    
 }
 /** DSA-section **/
+.DSA-section{
+    display: flex;
+    margin-left: 100px;
+}
+
 
 
 .DSA-img{
-    width: 425px;
-    height: 400px;
+    max-width: 100%;
+    height: 200px;
     background-image: url("/images/JAVADSA.8c9bdb266568538ad724.png");
     background-size: cover;
     position: relative;
     left: 100px;
+    z-index: -1;
+    
+}
 
+.Java-para{
+    width: 370px;
+    height: 100px;
+    background-color: #172a45;
+    text-align: center;
+    margin-top: 20px;
+}
+.Java-para p{
+    padding-top: 20px;
+
+}
+
+.Java-para i{
+    margin-left: 300px;
+    margin-top: 10px;
 }
 
 
