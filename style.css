@@ -254,9 +254,40 @@ justify-content: space-between;
     height: 275px;
     background-image: url("/images/BankApp.0bcd60851e9dccf3ad99.png");
     background-size: cover;
-    margin-right: 150px;
-    
-    
+    margin-right: 150px;   
+}
+
+/** Mobile-section **/
+.Mobile-section{
+    margin-top: 120px;
+    display: flex;
+}
+
+
+.mobile-img{
+    width: 490px;
+    height: 310px;
+    background-image: url("/images/RealEstateMobileApp.png");
+    background-size: cover;
+    margin-left: 120px;
+
+}
+
+.mobile-para{
+    width: 340px;
+    height: 116px;
+    background-color: #172a45;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+    right: 70px;
+}
+
+
+.mobile-data i{
+    margin-top: 15px;
+    margin-left: 170px;
 }
 
 
