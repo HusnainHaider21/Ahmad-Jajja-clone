@@ -261,6 +261,7 @@ justify-content: space-between;
 .Mobile-section{
     margin-top: 120px;
     display: flex;
+    height: 450px;
 }
 
 
@@ -288,6 +289,13 @@ justify-content: space-between;
 .mobile-data i{
     margin-top: 15px;
     margin-left: 170px;
+}
+
+/** footer **/
+
+
+.footer-1{
+    
 }
 
 
