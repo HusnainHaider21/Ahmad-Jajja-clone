@@ -292,6 +292,38 @@ justify-content: space-between;
 }
 
 /** footer **/
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    
+}
+
+.box{
+    height: 370px;
+    width: 26%;
+    background-color: #172a45;
+    color: #CCd6f6; 
+    margin-top: 30px;
+}
+.footer-icons{
+    position: absolute;
+    
+}
+#icon-1{
+    position: relative;
+    left: 10px;
+    font-weight: 500;
+    
+}
+
+
+#icon-2{
+    position: relative;
+    left: 100px;
+    font-size: large;
+}
 
 
 
