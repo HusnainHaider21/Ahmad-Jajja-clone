@@ -326,5 +326,15 @@ justify-content: space-between;
 }
 
 
+.button-container{
+    text-align: center;
+    color: #64FFDA;
+    margin-top: 100px;
+}
+button{
+    padding:8px;
+}
+
+
 
 
