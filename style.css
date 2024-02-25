@@ -9,8 +9,12 @@
 
 body{
     background-color: #0A192f;
+    width: 100%;
+    height: 100%;
+    
 }
 /** navbar **/
+
 .navbar{
     height: 50px;
     width: 100%;
